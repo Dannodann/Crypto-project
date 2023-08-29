@@ -244,6 +244,7 @@ footer {
   
   /* Estilos para la parte inferior del footer */
   .footer-bottom {
+    color: white;
     text-align: center;
     margin-top: 20px;
   }
