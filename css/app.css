@@ -209,3 +209,43 @@ p.precio{
       opacity: 0; 
     }
   }
+
+/* Estilos generales para el footer */
+footer {
+    color: #fff;
+  }
+  
+  /* Estilos para el contenido del footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo img {
+    width: 300px;
+    height: auto;
+  }
+  
+  
+  /* Estilos para los íconos de redes sociales */
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social img {
+    width: 250px;
+    height: auto;
+  }
+  
+  /* Estilos para la parte inferior del footer */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
