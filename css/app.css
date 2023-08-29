@@ -212,7 +212,7 @@ p.precio{
 
 /* Estilos generales para el footer */
 footer {
-    color: #fff;
+    color: white;
   }
   
   /* Estilos para el contenido del footer */
@@ -220,7 +220,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
   }
