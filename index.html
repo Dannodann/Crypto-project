@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Search</title>             
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+     <img src="img/marsh-mclennan-logo-0.png">
+
+    <div class="container">
+        <div class="row">
+            <div class="one-half column">
+                <img src="img/cryptomonedas.png">
+
+            </div>
+            
+            <div class="one-half column">
+                <form id="formulario">
+                    <div class="row">
+                        <label>Coin</label>
+                        <select
+                            class="u-full-width"
+                            id="moneda"
+                            name="moneda"
+                        >       <option value="">Chose coin</option>
+                                <option value="USD">USD</option>
+                                <option value="MXN">MXN</option>
+                                <option value="GBP">GBP</option>
+                                <option value="EUR">EUR</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                    <div>
+                        <label>Crypto</label>
+                        <select 
+                            class="u-full-width"
+                            id="criptomonedas"
+                            name="criptomoneda"
+                        >
+                            <option value="">Chose Crypto</option>
+                        </select>
+                    </div>
+                    </div>
+                    <input class="button-primary u-full-width" type="submit" value="Search" />
+
+                    <div id="resultado" class="resultado"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
